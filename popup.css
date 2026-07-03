@@ -11,4 +11,22 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: gold;
+    transform: scale(1.10);
 }
