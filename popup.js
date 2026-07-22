@@ -7,6 +7,12 @@ startButton.addEventListener("click", function() {
         currentWindow: true
     },
     function(tabs) {
-        console.log(tabs[0].url);
+        const url = tabs[0].url;
+        if (url.includes("https://leetcode.com/problems/")) {
+            console.log("Leetcode problem page Detected");
+        }
+        else {
+            console.log("Not a leetcode problem page");
+        }
     })
 });
