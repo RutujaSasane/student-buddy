@@ -12,7 +12,9 @@ startButton.addEventListener("click", function() {
             console.log("Leetcode problem page Detected");
         }
         else {
-            console.log("Not a leetcode problem page");
+            alert(
+                "Oops! Please open a LeetCode problem page and click 'Start Learning' again."
+                );
         }
     })
 });
